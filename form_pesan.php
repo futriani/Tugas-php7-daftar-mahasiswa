@@ -18,48 +18,34 @@
         body {
 
             font-family: 'Trebuchet MS', sans-serif;
-
             background-color: #EAF4FF;
-
             margin: 0;
-
             padding: 40px 20px;
-
             color: #23405A;
         }
 
         .container {
 
             max-width: 780px;
-
             margin: auto;
-
             padding: 30px;
-
             background-color: white;
-
             border-radius: 18px;
-
             box-shadow: 0 5px 18px rgba(35, 64, 90, 0.12);
         }
 
         h2 {
 
             color: #1976D2;
-
             margin-top: 20px;
-
             margin-bottom: 24px;
         }
 
         label {
 
             display: block;
-
             margin-top: 16px;
-
             margin-bottom: 6px;
-
             font-weight: bold;
         }
 
@@ -67,17 +53,11 @@
         textarea {
 
             width: 100%;
-
             padding: 12px;
-
             border: 1px solid #90CAF9;
-
             border-radius: 8px;
-
             font-family: Arial, sans-serif;
-
             font-size: 16px;
-
             background-color: #F8FBFF;
         }
 
@@ -85,14 +65,12 @@
         textarea:focus {
 
             outline: 2px solid #2196F3;
-
             border-color: #2196F3;
         }
 
         textarea {
 
             height: 145px;
-
             resize: vertical;
         }
 
@@ -100,33 +78,24 @@
         .kembali {
 
             display: inline-block;
-
             margin-top: 20px;
-
             padding: 10px 16px;
-
             border: none;
-
             border-radius: 8px;
-
             font-size: 16px;
-
             text-decoration: none;
-
             cursor: pointer;
         }
 
         button {
 
             background-color: #2196F3;
-
             color: white;
         }
 
         .kembali {
 
             background-color: #90CAF9;
-
             color: #23405A;
         }
 

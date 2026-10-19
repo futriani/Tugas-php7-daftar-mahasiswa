@@ -23,68 +23,47 @@ $pesan = $_POST["pesan"];
 
         body {
 
-            font-family: 'Trebuchet MS', sans-serif;
-
+            font-family: 'Arial', sans-serif;
             background-color: #EAF4FF;
-
             margin: 0;
-
             padding: 40px 20px;
-
             color: #23405A;
         }
 
         .container {
 
             max-width: 780px;
-
             margin: auto;
-
             padding: 30px;
-
             background-color: white;
-
             border-radius: 18px;
-
             box-shadow: 0 5px 18px rgba(35, 64, 90, 0.12);
         }
 
         h2 {
 
             color: #1976D2;
-
             margin-top: 20px;
         }
 
         .item {
 
             background-color: #EAF4FF;
-
             padding: 14px;
-
             margin-bottom: 14px;
-
             border-radius: 8px;
-
             border-left: 5px solid #90CAF9;
-
             overflow-wrap: anywhere;
         }
 
         .btn {
 
             display: inline-block;
-
             margin-top: 15px;
-
             padding: 10px 16px;
-
             background-color: #2196F3;
-
             color: white;
-
             text-decoration: none;
-
             border-radius: 8px;
         }
 

@@ -1,4 +1,5 @@
 <?php
+// membuat array berisi data mahasiswa
 $mahasiswa = [
     [
         "nim" => "2509075",
@@ -54,15 +55,13 @@ $mahasiswa = [
         * {
             box-sizing: border-box;
         }
-
         body {
-            font-family: 'Trebuchet MS', sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #EAF4FF;
             color: #23405A;
             margin: 0;
             padding: 40px 5%;
         }
-
         .container {
             background-color: white;
             padding: 30px;
@@ -70,7 +69,6 @@ $mahasiswa = [
             box-shadow: 0 5px 18px rgba(35, 64, 90, 0.12);
             overflow-x: auto;
         }
-
         .header {
             display: flex;
             justify-content: space-between;
@@ -78,12 +76,10 @@ $mahasiswa = [
             gap: 20px;
             margin-bottom: 35px;
         }
-
         h2 {
             color: #1976D2;
             margin-top: 0;
         }
-
         .header p {
             font-size: 18px;
             margin-bottom: 0;
@@ -180,17 +176,11 @@ $mahasiswa = [
                 <tr>
 
                     <td><?= $index + 1 ?></td>
-
                     <td><?= ($mhs["nim"]) ?></td>
-
                     <td><?= ($mhs["nama"]) ?></td>
-
                     <td><?= ($mhs["jurusan"]) ?></td>
-
                     <td><?= ($mhs["email"]) ?></td>
-
                     <td><?= $mhs["nilai"] ?></td>
-
                     <td><?= ($mhs["grade"]) ?></td>
 
                     <td>
@@ -208,29 +198,23 @@ $mahasiswa = [
                         }
 
                         ?>
-
                     </td>
 
                     <td>
 
                         <a class="btn"
-                           href="detail.php?nim=<?= $mhs["nim"] ?>&nama=<?= urlencode($mhs["nama"]) ?>&jurusan=<?= urlencode($mhs["jurusan"]) ?>&email=<?= urlencode($mhs["email"]) ?>&nilai=<?= $mhs["nilai"] ?>&grade=<?= $mhs["grade"] ?>">
-
+                            href="detail.php?nim=<?= $mhs["nim"] ?>&nama=<?= $mhs["nama"] 
+                            ?>&jurusan=<?= $mhs["jurusan"] ?>&email=<?= $mhs["email"] ?>&nilai=<?= $mhs["nilai"] 
+                            ?>&grade=<?= $mhs["grade"] ?>">
                             Lihat Detail
-
                         </a>
 
                     </td>
 
                 </tr>
-
                 <?php endforeach; ?>
-
             </tbody>
-
         </table>
-
     </div>
-
 </body>
 </html>
